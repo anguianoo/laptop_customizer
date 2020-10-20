@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import Parts from "./parts/Parts";
-// Normalizes string as a slug - a string that is safe to use
-// in both URLs and html attributes
+
 import slugify from "slugify";
+
 class Specs extends Component {
   render() {
     const features = Object.keys(this.props.features).map((feature, idx) => {
